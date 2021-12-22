@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <input v-vyic>
+    <input v-youji-inputcalculator>
   </div>
 </template>
 
