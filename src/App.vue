@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <input v-youji-inputcalculator>
+    <div style="display:flex;justify-content: space-around;">
+      <input v-youji-inputcalculator>
+      <input v-youji-inputcalculator>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'vyic',
-  components: {}
+  components: {},
 }
 </script>
 

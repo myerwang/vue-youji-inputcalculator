@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import InputCalculator from './index.js'
+import calculator from './index.js'
 
-Vue.use(InputCalculator);
+Vue.use(calculator);
 
 new Vue({
   render: h => h(App),
